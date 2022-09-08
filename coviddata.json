@@ -1,0 +1,1736 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "mwk9-wnfr",
+      "name" : "AH Cumulative Provisional COVID-19 Deaths by Sex, Race, and Age from 1/1/2020 to 7/28/2020",
+      "assetType" : "dataset",
+      "attribution" : "NCHS/DVS",
+      "attributionLink" : "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
+      "averageRating" : 0,
+      "category" : "NCHS",
+      "createdAt" : 1595441486,
+      "description" : "Cumulative provisional counts of deaths sex, race/Hispanic origin, age group, and by select underlying causes of death.  The dataset also includes provisional counts of death for COVID-19, coded to ICD-10 code U07.1 as an underlying or multiple cause of death.  Includes deaths that occurred between January 1, 2020 to July 28, 2020.",
+      "displayType" : "table",
+      "downloadCount" : 6326,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "licenseId" : "USGOV_WORKS",
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 34742404,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1595443299,
+      "publicationGroup" : 17363423,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1596037267,
+      "rowsUpdatedBy" : "xfvr-ns68",
+      "tableId" : 17363423,
+      "totalTimesRated" : 0,
+      "viewCount" : 6241,
+      "viewLastModified" : 1648848860,
+      "viewType" : "tabular",
+      "approvals" : [ {
+        "reviewedAt" : 1595443300,
+        "reviewedAutomatically" : true,
+        "state" : "approved",
+        "submissionId" : 2466877,
+        "submissionObject" : "public_audience_request",
+        "submissionOutcome" : "change_audience",
+        "submittedAt" : 1595443300,
+        "workflowId" : 2100,
+        "submissionDetails" : {
+          "permissionType" : "READ"
+        },
+        "submissionOutcomeApplication" : {
+          "endedAt" : 1595443300,
+          "failureCount" : 0,
+          "startedAt" : 1595443300,
+          "status" : "success"
+        },
+        "submitter" : {
+          "id" : "xfvr-ns68",
+          "displayName" : "NCHS"
+        }
+      } ],
+      "clientContext" : {
+        "clientContextVariables" : [ ],
+        "inheritedVariables" : { }
+      },
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 482883896,
+        "name" : "Data as of",
+        "dataTypeName" : "calendar_date",
+        "description" : "Data of analysis",
+        "fieldName" : "data_as_of",
+        "position" : 1,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 109444626,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "2020-07-31T00:00:00.000",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2020-07-28T00:00:00.000",
+            "count" : "117"
+          }, {
+            "item" : "2020-07-29T00:00:00.000",
+            "count" : "1"
+          }, {
+            "item" : "2020-07-30T00:00:00.000",
+            "count" : "1"
+          }, {
+            "item" : "2020-07-31T00:00:00.000",
+            "count" : "1"
+          } ],
+          "smallest" : "2020-07-28T00:00:00.000",
+          "cardinality" : "4"
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 482883900,
+        "name" : "Sex",
+        "dataTypeName" : "text",
+        "description" : "Sex",
+        "fieldName" : "sex",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 109444630,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "Male (M)",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Female (F)",
+            "count" : "60"
+          }, {
+            "item" : "Male (M)",
+            "count" : "60"
+          } ],
+          "smallest" : "Female (F)",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 482883899,
+        "name" : "Race/Ethnicity",
+        "dataTypeName" : "text",
+        "description" : "Race or Hispanic Origin Group",
+        "fieldName" : "race_ethnicity",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 109444629,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "Other",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Non-Hispanic Asian",
+            "count" : "20"
+          }, {
+            "item" : "Hispanic",
+            "count" : "20"
+          }, {
+            "item" : "Non-Hispanic American Indian or Alaska Native",
+            "count" : "20"
+          }, {
+            "item" : "Other",
+            "count" : "20"
+          }, {
+            "item" : "Non-Hispanic Black",
+            "count" : "20"
+          }, {
+            "item" : "Non-Hispanic White",
+            "count" : "20"
+          } ],
+          "smallest" : "Hispanic",
+          "cardinality" : "6"
+        },
+        "format" : { }
+      }, {
+        "id" : 482883898,
+        "name" : "Age group",
+        "dataTypeName" : "text",
+        "description" : "Age group",
+        "fieldName" : "age_group",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 109444628,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "85 years and over",
+          "null" : "0",
+          "top" : [ {
+            "item" : "55-64 years",
+            "count" : "12"
+          }, {
+            "item" : "45-54 years",
+            "count" : "12"
+          }, {
+            "item" : "85 years and over",
+            "count" : "12"
+          }, {
+            "item" : "0-4 years",
+            "count" : "12"
+          }, {
+            "item" : "65-74 years",
+            "count" : "12"
+          }, {
+            "item" : "75-84 years",
+            "count" : "12"
+          }, {
+            "item" : "5-14 years",
+            "count" : "12"
+          }, {
+            "item" : "25-34 years",
+            "count" : "12"
+          }, {
+            "item" : "15-24 years",
+            "count" : "12"
+          }, {
+            "item" : "35-44 years",
+            "count" : "12"
+          } ],
+          "smallest" : "0-4 years",
+          "cardinality" : "10"
+        },
+        "format" : { }
+      }, {
+        "id" : 482883878,
+        "name" : "Year",
+        "dataTypeName" : "number",
+        "description" : "Year",
+        "fieldName" : "year",
+        "position" : 5,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444607,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "2020",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2020",
+            "count" : "120"
+          } ],
+          "smallest" : "2020",
+          "cardinality" : "1"
+        },
+        "format" : {
+          "noCommas" : "true",
+          "align" : "left"
+        }
+      }, {
+        "id" : 482883897,
+        "name" : "MMWRWeek",
+        "dataTypeName" : "number",
+        "description" : "MMWR Week Number",
+        "fieldName" : "mmwrweek",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444627,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "30",
+          "null" : "0",
+          "top" : [ {
+            "item" : "30",
+            "count" : "120"
+          } ],
+          "smallest" : "30",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 482883872,
+        "name" : "Analysis Period Start Date",
+        "dataTypeName" : "calendar_date",
+        "description" : "First date of data period",
+        "fieldName" : "analysis_period_start_date",
+        "position" : 7,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 109444602,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "2020-01-01T00:00:00.000",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2020-01-01T00:00:00.000",
+            "count" : "120"
+          } ],
+          "smallest" : "2020-01-01T00:00:00.000",
+          "cardinality" : "1"
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 482883871,
+        "name" : "Analysis Period End Date",
+        "dataTypeName" : "calendar_date",
+        "description" : "Last date of data period",
+        "fieldName" : "analysis_period_end_date",
+        "position" : 8,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 109444601,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "2020-07-28T00:00:00.000",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2020-07-28T00:00:00.000",
+            "count" : "120"
+          } ],
+          "smallest" : "2020-07-28T00:00:00.000",
+          "cardinality" : "1"
+        },
+        "format" : {
+          "view" : "date"
+        }
+      }, {
+        "id" : 482883870,
+        "name" : "AllCause",
+        "dataTypeName" : "number",
+        "description" : "AllCause",
+        "fieldName" : "allcause",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444600,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "264759",
+          "null" : "0",
+          "top" : [ {
+            "item" : "955",
+            "count" : "1"
+          }, {
+            "item" : "267",
+            "count" : "1"
+          }, {
+            "item" : "15030",
+            "count" : "1"
+          }, {
+            "item" : "2366",
+            "count" : "1"
+          }, {
+            "item" : "264759",
+            "count" : "1"
+          }, {
+            "item" : "16957",
+            "count" : "1"
+          }, {
+            "item" : "531",
+            "count" : "1"
+          }, {
+            "item" : "2401",
+            "count" : "1"
+          }, {
+            "item" : "547",
+            "count" : "1"
+          }, {
+            "item" : "2126",
+            "count" : "1"
+          }, {
+            "item" : "4545",
+            "count" : "1"
+          }, {
+            "item" : "322",
+            "count" : "1"
+          }, {
+            "item" : "27709",
+            "count" : "1"
+          }, {
+            "item" : "232",
+            "count" : "1"
+          }, {
+            "item" : "1500",
+            "count" : "1"
+          }, {
+            "item" : "2901",
+            "count" : "1"
+          }, {
+            "item" : "6457",
+            "count" : "1"
+          }, {
+            "item" : "1660",
+            "count" : "1"
+          }, {
+            "item" : "1002",
+            "count" : "1"
+          }, {
+            "item" : "24",
+            "count" : "1"
+          } ],
+          "smallest" : "14",
+          "cardinality" : "120"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883869,
+        "name" : "NaturalCause",
+        "dataTypeName" : "number",
+        "description" : "NaturalCause (A00-R99)",
+        "fieldName" : "naturalcause",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444599,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "257929",
+          "null" : "0",
+          "top" : [ {
+            "item" : "640",
+            "count" : "2"
+          }, {
+            "item" : "7132",
+            "count" : "1"
+          }, {
+            "item" : "382",
+            "count" : "1"
+          }, {
+            "item" : "1543",
+            "count" : "1"
+          }, {
+            "item" : "3296",
+            "count" : "1"
+          }, {
+            "item" : "21",
+            "count" : "1"
+          }, {
+            "item" : "3929",
+            "count" : "1"
+          }, {
+            "item" : "3340",
+            "count" : "1"
+          }, {
+            "item" : "1957",
+            "count" : "1"
+          }, {
+            "item" : "82",
+            "count" : "1"
+          }, {
+            "item" : "6280",
+            "count" : "1"
+          }, {
+            "item" : "11009",
+            "count" : "1"
+          }, {
+            "item" : "943",
+            "count" : "1"
+          }, {
+            "item" : "22513",
+            "count" : "1"
+          }, {
+            "item" : "1334",
+            "count" : "1"
+          }, {
+            "item" : "1293",
+            "count" : "1"
+          }, {
+            "item" : "257",
+            "count" : "1"
+          }, {
+            "item" : "3213",
+            "count" : "1"
+          }, {
+            "item" : "164191",
+            "count" : "1"
+          }, {
+            "item" : "13800",
+            "count" : "1"
+          } ],
+          "smallest" : "6",
+          "cardinality" : "119"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883868,
+        "name" : "Septicemia (A40-A41)",
+        "dataTypeName" : "number",
+        "description" : "Septicemia (A40-A41)",
+        "fieldName" : "septicemia_a40_a41",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444598,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "2470",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "11"
+          }, {
+            "item" : "1",
+            "count" : "7"
+          }, {
+            "item" : "5",
+            "count" : "6"
+          }, {
+            "item" : "10",
+            "count" : "6"
+          }, {
+            "item" : "4",
+            "count" : "5"
+          }, {
+            "item" : "15",
+            "count" : "4"
+          }, {
+            "item" : "8",
+            "count" : "4"
+          }, {
+            "item" : "18",
+            "count" : "4"
+          }, {
+            "item" : "2",
+            "count" : "4"
+          }, {
+            "item" : "21",
+            "count" : "3"
+          }, {
+            "item" : "19",
+            "count" : "3"
+          }, {
+            "item" : "3",
+            "count" : "3"
+          }, {
+            "item" : "13",
+            "count" : "3"
+          }, {
+            "item" : "12",
+            "count" : "2"
+          }, {
+            "item" : "55",
+            "count" : "2"
+          }, {
+            "item" : "6",
+            "count" : "2"
+          }, {
+            "item" : "11",
+            "count" : "2"
+          }, {
+            "item" : "7",
+            "count" : "2"
+          }, {
+            "item" : "59",
+            "count" : "1"
+          }, {
+            "item" : "72",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "65"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883867,
+        "name" : "Malignant neoplasms (C00-C97)",
+        "dataTypeName" : "number",
+        "description" : "Malignant neoplasms (C00-C97)",
+        "fieldName" : "malignant_neoplasms_c00_c97",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444597,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "39883",
+          "null" : "0",
+          "top" : [ {
+            "item" : "3",
+            "count" : "4"
+          }, {
+            "item" : "6",
+            "count" : "3"
+          }, {
+            "item" : "13",
+            "count" : "2"
+          }, {
+            "item" : "7",
+            "count" : "2"
+          }, {
+            "item" : "46",
+            "count" : "2"
+          }, {
+            "item" : "253",
+            "count" : "2"
+          }, {
+            "item" : "12",
+            "count" : "2"
+          }, {
+            "item" : "58",
+            "count" : "2"
+          }, {
+            "item" : "1",
+            "count" : "2"
+          }, {
+            "item" : "2545",
+            "count" : "1"
+          }, {
+            "item" : "481",
+            "count" : "1"
+          }, {
+            "item" : "5",
+            "count" : "1"
+          }, {
+            "item" : "24",
+            "count" : "1"
+          }, {
+            "item" : "212",
+            "count" : "1"
+          }, {
+            "item" : "19153",
+            "count" : "1"
+          }, {
+            "item" : "884",
+            "count" : "1"
+          }, {
+            "item" : "61",
+            "count" : "1"
+          }, {
+            "item" : "165",
+            "count" : "1"
+          }, {
+            "item" : "291",
+            "count" : "1"
+          }, {
+            "item" : "5351",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "108"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883866,
+        "name" : "Diabetes mellitus (E10-E14)",
+        "dataTypeName" : "number",
+        "description" : "Diabetes mellitus (E10-E14)",
+        "fieldName" : "diabetes_mellitus_e10_e14",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444596,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "5480",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "19"
+          }, {
+            "item" : "4",
+            "count" : "5"
+          }, {
+            "item" : "2",
+            "count" : "4"
+          }, {
+            "item" : "1",
+            "count" : "3"
+          }, {
+            "item" : "5",
+            "count" : "3"
+          }, {
+            "item" : "25",
+            "count" : "2"
+          }, {
+            "item" : "79",
+            "count" : "2"
+          }, {
+            "item" : "43",
+            "count" : "2"
+          }, {
+            "item" : "8",
+            "count" : "2"
+          }, {
+            "item" : "20",
+            "count" : "2"
+          }, {
+            "item" : "57",
+            "count" : "2"
+          }, {
+            "item" : "28",
+            "count" : "2"
+          }, {
+            "item" : "3",
+            "count" : "2"
+          }, {
+            "item" : "47",
+            "count" : "2"
+          }, {
+            "item" : "19",
+            "count" : "2"
+          }, {
+            "item" : "50",
+            "count" : "2"
+          }, {
+            "item" : "3423",
+            "count" : "1"
+          }, {
+            "item" : "1913",
+            "count" : "1"
+          }, {
+            "item" : "311",
+            "count" : "1"
+          }, {
+            "item" : "776",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "80"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883865,
+        "name" : "Alzheimer disease (G30)",
+        "dataTypeName" : "number",
+        "description" : "Alzheimer disease (G30)",
+        "fieldName" : "alzheimer_disease_g30",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444595,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "27255",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "61"
+          }, {
+            "item" : "1",
+            "count" : "6"
+          }, {
+            "item" : "7",
+            "count" : "3"
+          }, {
+            "item" : "2",
+            "count" : "3"
+          }, {
+            "item" : "22",
+            "count" : "2"
+          }, {
+            "item" : "5",
+            "count" : "2"
+          }, {
+            "item" : "43",
+            "count" : "2"
+          }, {
+            "item" : "6",
+            "count" : "1"
+          }, {
+            "item" : "3",
+            "count" : "1"
+          }, {
+            "item" : "204",
+            "count" : "1"
+          }, {
+            "item" : "1105",
+            "count" : "1"
+          }, {
+            "item" : "32",
+            "count" : "1"
+          }, {
+            "item" : "34",
+            "count" : "1"
+          }, {
+            "item" : "143",
+            "count" : "1"
+          }, {
+            "item" : "10049",
+            "count" : "1"
+          }, {
+            "item" : "61",
+            "count" : "1"
+          }, {
+            "item" : "239",
+            "count" : "1"
+          }, {
+            "item" : "295",
+            "count" : "1"
+          }, {
+            "item" : "17",
+            "count" : "1"
+          }, {
+            "item" : "10113",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "48"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883864,
+        "name" : "Influenza and pneumonia (J09-J18)",
+        "dataTypeName" : "number",
+        "description" : "Influenza and pneumonia (J10-J18)",
+        "fieldName" : "influenza_and_pneumonia_j09",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444594,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "5306",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2",
+            "count" : "7"
+          }, {
+            "item" : "3",
+            "count" : "7"
+          }, {
+            "item" : "14",
+            "count" : "4"
+          }, {
+            "item" : "1",
+            "count" : "4"
+          }, {
+            "item" : "30",
+            "count" : "4"
+          }, {
+            "item" : "7",
+            "count" : "3"
+          }, {
+            "item" : "9",
+            "count" : "3"
+          }, {
+            "item" : "5",
+            "count" : "3"
+          }, {
+            "item" : "22",
+            "count" : "3"
+          }, {
+            "item" : "21",
+            "count" : "2"
+          }, {
+            "item" : "346",
+            "count" : "2"
+          }, {
+            "item" : "34",
+            "count" : "2"
+          }, {
+            "item" : "24",
+            "count" : "2"
+          }, {
+            "item" : "17",
+            "count" : "2"
+          }, {
+            "item" : "13",
+            "count" : "2"
+          }, {
+            "item" : "31",
+            "count" : "2"
+          }, {
+            "item" : "37",
+            "count" : "2"
+          }, {
+            "item" : "459",
+            "count" : "2"
+          }, {
+            "item" : "147",
+            "count" : "2"
+          }, {
+            "item" : "11",
+            "count" : "2"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "75"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883863,
+        "name" : "Chronic lower respiratory diseases (J40-J47)",
+        "dataTypeName" : "number",
+        "description" : "Chronic lower respiratory diseases (J40-J47)",
+        "fieldName" : "chronic_lower_respiratory",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444593,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "12945",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "11"
+          }, {
+            "item" : "0",
+            "count" : "11"
+          }, {
+            "item" : "2",
+            "count" : "6"
+          }, {
+            "item" : "4",
+            "count" : "4"
+          }, {
+            "item" : "18",
+            "count" : "4"
+          }, {
+            "item" : "3",
+            "count" : "4"
+          }, {
+            "item" : "59",
+            "count" : "3"
+          }, {
+            "item" : "14",
+            "count" : "3"
+          }, {
+            "item" : "9",
+            "count" : "2"
+          }, {
+            "item" : "53",
+            "count" : "2"
+          }, {
+            "item" : "7",
+            "count" : "2"
+          }, {
+            "item" : "10",
+            "count" : "2"
+          }, {
+            "item" : "6",
+            "count" : "2"
+          }, {
+            "item" : "35",
+            "count" : "2"
+          }, {
+            "item" : "51",
+            "count" : "1"
+          }, {
+            "item" : "856",
+            "count" : "1"
+          }, {
+            "item" : "254",
+            "count" : "1"
+          }, {
+            "item" : "31",
+            "count" : "1"
+          }, {
+            "item" : "71",
+            "count" : "1"
+          }, {
+            "item" : "494",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "76"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883862,
+        "name" : "Other diseases of respiratory system (J00-J06,J30-J39,J67,J70-J98)",
+        "dataTypeName" : "number",
+        "description" : "Other diseases of respiratory system (J00-J06,J30-J39,J67,J70-J98)",
+        "fieldName" : "other_diseases_of_respiratory",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444592,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "3461",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "15"
+          }, {
+            "item" : "4",
+            "count" : "7"
+          }, {
+            "item" : "1",
+            "count" : "7"
+          }, {
+            "item" : "6",
+            "count" : "5"
+          }, {
+            "item" : "12",
+            "count" : "4"
+          }, {
+            "item" : "2",
+            "count" : "3"
+          }, {
+            "item" : "3",
+            "count" : "3"
+          }, {
+            "item" : "14",
+            "count" : "3"
+          }, {
+            "item" : "9",
+            "count" : "3"
+          }, {
+            "item" : "7",
+            "count" : "3"
+          }, {
+            "item" : "13",
+            "count" : "2"
+          }, {
+            "item" : "33",
+            "count" : "2"
+          }, {
+            "item" : "34",
+            "count" : "2"
+          }, {
+            "item" : "15",
+            "count" : "2"
+          }, {
+            "item" : "18",
+            "count" : "2"
+          }, {
+            "item" : "8",
+            "count" : "2"
+          }, {
+            "item" : "288",
+            "count" : "2"
+          }, {
+            "item" : "21",
+            "count" : "2"
+          }, {
+            "item" : "16",
+            "count" : "2"
+          }, {
+            "item" : "71",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "68"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883861,
+        "name" : "Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",
+        "dataTypeName" : "number",
+        "description" : "Nephritis, nephrotic syndrome and nephrosis (N00-N07,N17-N19,N25-N27)",
+        "fieldName" : "nephritis_nephrotic_syndrome",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444591,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "3769",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "19"
+          }, {
+            "item" : "1",
+            "count" : "9"
+          }, {
+            "item" : "2",
+            "count" : "6"
+          }, {
+            "item" : "6",
+            "count" : "4"
+          }, {
+            "item" : "16",
+            "count" : "4"
+          }, {
+            "item" : "8",
+            "count" : "4"
+          }, {
+            "item" : "7",
+            "count" : "3"
+          }, {
+            "item" : "22",
+            "count" : "3"
+          }, {
+            "item" : "18",
+            "count" : "3"
+          }, {
+            "item" : "3",
+            "count" : "2"
+          }, {
+            "item" : "31",
+            "count" : "2"
+          }, {
+            "item" : "4",
+            "count" : "2"
+          }, {
+            "item" : "13",
+            "count" : "2"
+          }, {
+            "item" : "5",
+            "count" : "2"
+          }, {
+            "item" : "46",
+            "count" : "2"
+          }, {
+            "item" : "14",
+            "count" : "2"
+          }, {
+            "item" : "158",
+            "count" : "1"
+          }, {
+            "item" : "732",
+            "count" : "1"
+          }, {
+            "item" : "41",
+            "count" : "1"
+          }, {
+            "item" : "28",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "67"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883860,
+        "name" : "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)",
+        "dataTypeName" : "number",
+        "description" : "Symptoms, signs and abnormal clinical and laboratory findings, not elsewhere classified (R00-R99)",
+        "fieldName" : "symptoms_signs_and_abnormal",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444590,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "4191",
+          "null" : "0",
+          "top" : [ {
+            "item" : "12",
+            "count" : "3"
+          }, {
+            "item" : "19",
+            "count" : "3"
+          }, {
+            "item" : "43",
+            "count" : "2"
+          }, {
+            "item" : "34",
+            "count" : "2"
+          }, {
+            "item" : "8",
+            "count" : "2"
+          }, {
+            "item" : "41",
+            "count" : "2"
+          }, {
+            "item" : "2",
+            "count" : "2"
+          }, {
+            "item" : "1",
+            "count" : "2"
+          }, {
+            "item" : "44",
+            "count" : "2"
+          }, {
+            "item" : "3",
+            "count" : "2"
+          }, {
+            "item" : "51",
+            "count" : "2"
+          }, {
+            "item" : "66",
+            "count" : "2"
+          }, {
+            "item" : "26",
+            "count" : "2"
+          }, {
+            "item" : "21",
+            "count" : "2"
+          }, {
+            "item" : "32",
+            "count" : "2"
+          }, {
+            "item" : "61",
+            "count" : "2"
+          }, {
+            "item" : "99",
+            "count" : "2"
+          }, {
+            "item" : "17",
+            "count" : "2"
+          }, {
+            "item" : "33",
+            "count" : "2"
+          }, {
+            "item" : "213",
+            "count" : "2"
+          } ],
+          "smallest" : "1",
+          "cardinality" : "97"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883859,
+        "name" : "Diseases of heart (I00-I09,I11,I13,I20-I51)",
+        "dataTypeName" : "number",
+        "description" : "Diseases of heart (I00-I09,I11,I13,I20-I51)",
+        "fieldName" : "diseases_of_heart_i00_i09",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444589,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "68187",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "6"
+          }, {
+            "item" : "2",
+            "count" : "5"
+          }, {
+            "item" : "43",
+            "count" : "3"
+          }, {
+            "item" : "16",
+            "count" : "3"
+          }, {
+            "item" : "7",
+            "count" : "2"
+          }, {
+            "item" : "10",
+            "count" : "2"
+          }, {
+            "item" : "26",
+            "count" : "2"
+          }, {
+            "item" : "3",
+            "count" : "2"
+          }, {
+            "item" : "0",
+            "count" : "2"
+          }, {
+            "item" : "30",
+            "count" : "2"
+          }, {
+            "item" : "9",
+            "count" : "2"
+          }, {
+            "item" : "51",
+            "count" : "2"
+          }, {
+            "item" : "112",
+            "count" : "1"
+          }, {
+            "item" : "104",
+            "count" : "1"
+          }, {
+            "item" : "590",
+            "count" : "1"
+          }, {
+            "item" : "21055",
+            "count" : "1"
+          }, {
+            "item" : "2828",
+            "count" : "1"
+          }, {
+            "item" : "61",
+            "count" : "1"
+          }, {
+            "item" : "127",
+            "count" : "1"
+          }, {
+            "item" : "15",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "99"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883858,
+        "name" : "Cerebrovascular diseases (I60-I69)",
+        "dataTypeName" : "number",
+        "description" : "Cerebrovascular diseases (I60-I69)",
+        "fieldName" : "cerebrovascular_diseases",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444588,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "19387",
+          "null" : "0",
+          "top" : [ {
+            "item" : "1",
+            "count" : "10"
+          }, {
+            "item" : "0",
+            "count" : "6"
+          }, {
+            "item" : "6",
+            "count" : "5"
+          }, {
+            "item" : "2",
+            "count" : "4"
+          }, {
+            "item" : "3",
+            "count" : "4"
+          }, {
+            "item" : "9",
+            "count" : "3"
+          }, {
+            "item" : "52",
+            "count" : "3"
+          }, {
+            "item" : "16",
+            "count" : "2"
+          }, {
+            "item" : "12",
+            "count" : "2"
+          }, {
+            "item" : "72",
+            "count" : "2"
+          }, {
+            "item" : "4",
+            "count" : "2"
+          }, {
+            "item" : "36",
+            "count" : "2"
+          }, {
+            "item" : "926",
+            "count" : "1"
+          }, {
+            "item" : "15",
+            "count" : "1"
+          }, {
+            "item" : "9394",
+            "count" : "1"
+          }, {
+            "item" : "65",
+            "count" : "1"
+          }, {
+            "item" : "426",
+            "count" : "1"
+          }, {
+            "item" : "7952",
+            "count" : "1"
+          }, {
+            "item" : "301",
+            "count" : "1"
+          }, {
+            "item" : "482",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "87"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883857,
+        "name" : "COVID-19 (U071, Multiple Cause of Death)",
+        "dataTypeName" : "number",
+        "description" : "COVID-19 (U071, Multiple Cause of Death)",
+        "fieldName" : "covid_19_u071_multiple_cause",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444587,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "19199",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "10"
+          }, {
+            "item" : "1",
+            "count" : "6"
+          }, {
+            "item" : "2",
+            "count" : "6"
+          }, {
+            "item" : "5",
+            "count" : "4"
+          }, {
+            "item" : "6",
+            "count" : "2"
+          }, {
+            "item" : "13",
+            "count" : "2"
+          }, {
+            "item" : "29",
+            "count" : "2"
+          }, {
+            "item" : "154",
+            "count" : "2"
+          }, {
+            "item" : "32",
+            "count" : "2"
+          }, {
+            "item" : "108",
+            "count" : "2"
+          }, {
+            "item" : "775",
+            "count" : "1"
+          }, {
+            "item" : "104",
+            "count" : "1"
+          }, {
+            "item" : "34",
+            "count" : "1"
+          }, {
+            "item" : "1302",
+            "count" : "1"
+          }, {
+            "item" : "4156",
+            "count" : "1"
+          }, {
+            "item" : "482",
+            "count" : "1"
+          }, {
+            "item" : "301",
+            "count" : "1"
+          }, {
+            "item" : "254",
+            "count" : "1"
+          }, {
+            "item" : "3838",
+            "count" : "1"
+          }, {
+            "item" : "31",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "92"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      }, {
+        "id" : 482883856,
+        "name" : "COVID-19 (U071, Underlying Cause of Death)",
+        "dataTypeName" : "number",
+        "description" : "COVID-19 (U071,Underlying Cause of Death)",
+        "fieldName" : "covid_19_u071_underlying",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 109444586,
+        "cachedContents" : {
+          "non_null" : "120",
+          "largest" : "17165",
+          "null" : "0",
+          "top" : [ {
+            "item" : "0",
+            "count" : "12"
+          }, {
+            "item" : "2",
+            "count" : "7"
+          }, {
+            "item" : "1",
+            "count" : "5"
+          }, {
+            "item" : "30",
+            "count" : "4"
+          }, {
+            "item" : "98",
+            "count" : "3"
+          }, {
+            "item" : "154",
+            "count" : "2"
+          }, {
+            "item" : "12",
+            "count" : "2"
+          }, {
+            "item" : "14",
+            "count" : "2"
+          }, {
+            "item" : "27",
+            "count" : "2"
+          }, {
+            "item" : "5",
+            "count" : "2"
+          }, {
+            "item" : "2859",
+            "count" : "1"
+          }, {
+            "item" : "26",
+            "count" : "1"
+          }, {
+            "item" : "104",
+            "count" : "1"
+          }, {
+            "item" : "619",
+            "count" : "1"
+          }, {
+            "item" : "3086",
+            "count" : "1"
+          }, {
+            "item" : "127",
+            "count" : "1"
+          }, {
+            "item" : "1234",
+            "count" : "1"
+          }, {
+            "item" : "15",
+            "count" : "1"
+          }, {
+            "item" : "17",
+            "count" : "1"
+          }, {
+            "item" : "1661",
+            "count" : "1"
+          } ],
+          "smallest" : "0",
+          "cardinality" : "89"
+        },
+        "format" : {
+          "align" : "right"
+        }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain U.S. Government",
+        "termsLink" : "https://www.usa.gov/government-works"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Data Quality" : {
+            "Suggested Citation" : " National Center for Health Statistics. AH Cumulative Provisional COVID-19 Deaths by Sex, Race, and Age from 1/1/2020 to 7/28/2020. Date accessed [Last accessed date]. Available from https://data.cdc.gov/d/mwk9-wnfr.",
+            "Geographic Coverage" : "United States"
+          },
+          "Common Core" : {
+            "Contact Email" : "cdcinfo@cdc.gov",
+            "Homepage" : "https://www.cdc.gov/nchs/covid19/covid-19-mortality-data-files.htm",
+            "Contact Name" : "National Center for Health Statistics",
+            "Issued" : "2020-07-22",
+            "Update Frequency" : "irregular",
+            "Temporal Applicability" : "2020-01-01/2020-07-28",
+            "Program Code" : "009:020",
+            "Publisher" : "National Center for Health Statistics",
+            "Bureau Code" : "009:20",
+            "Public Access Level" : "public"
+          }
+        },
+        "rowLabel" : "COVID-19 deaths by age group, sex, race, and underlying cause",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "xfvr-ns68",
+        "displayName" : "NCHS",
+        "screenName" : "NCHS",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "xfvr-ns68",
+        "displayName" : "NCHS",
+        "screenName" : "NCHS",
+        "type" : "interactive",
+        "flags" : [ "acceptedEula", "mayBeStoriesCoOwner" ]
+      },
+      "tags" : [ "nchs", "nvss", "provisional", "mortality", "deaths", "united states", "sex", "race", "hispanic origin", "age group", "age", "all causes", "causes of death", "covid-19", "coronavirus", "natural cause", "septicemia", "cancer", "diabetes", "alzheimer disease", "influenza", "pneumonia", "chronic lower respiratory disease", "respiratory disease", "kidney disease", "diseases of heart", "cerebrovascular disease" ],
+      "flags" : [ "default", "ownerMayBeContacted", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-r3cp~hzed~peh2", "00000000-0000-0000-4432-C3E09308599D", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1129", "1056", "12", "23", "1", "0", "9", "0", "9", "2", "130", "16", "5", "6", "3" ]
+, [ "row-hseg-hjg8-8ihy", "00000000-0000-0000-2687-9634BFF10596", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "882", "396", "3", "58", "12", "0", "13", "9", "4", "0", "110", "30", "17", "29", "26" ]
+, [ "row-bqan_uhb9_5hqt", "00000000-0000-0000-4480-EBF332D453E3", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1500", "960", "15", "185", "30", "0", "30", "14", "12", "16", "211", "69", "28", "105", "98" ]
+, [ "row-d4ni~485h-h3ik", "00000000-0000-0000-CF55-0E1E9ECE758A", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2366", "1942", "21", "582", "84", "1", "53", "22", "19", "24", "213", "175", "52", "252", "237" ]
+, [ "row-94y4.vpts.a223", "00000000-0000-0000-ADDC-C3AF37EC0971", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "4259", "3929", "55", "1322", "209", "3", "92", "53", "46", "65", "183", "391", "151", "624", "588" ]
+, [ "row-vy86.5s3p.q8g2", "00000000-0000-0000-7288-AA5DA4118073", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "282", "176", "1", "64", "1", "0", "9", "2", "7", "0", "19", "9", "6", "2", "2" ]
+, [ "row-i4vu-dcj7-f3p7", "00000000-0000-0000-445A-CAE745908992", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "7867", "7559", "117", "2291", "462", "32", "160", "167", "131", "158", "188", "968", "293", "1302", "1234" ]
+, [ "row-mqtk_9223_32qt", "00000000-0000-0000-582A-AAF5453E3A41", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "11081", "10868", "174", "2740", "683", "188", "264", "276", "213", "276", "99", "1716", "467", "1964", "1869" ]
+, [ "row-4fxf~xsew~qj9q", "00000000-0000-0000-ACED-F94BEBF757F2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "14991", "14718", "180", "2544", "800", "873", "346", "455", "300", "314", "123", "2799", "926", "2356", "2242" ]
+, [ "row-k2qp.w89s_ayc4", "00000000-0000-0000-CAD8-AC91BDA77810", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Hispanic", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "20292", "19934", "186", "1642", "652", "2397", "457", "696", "259", "309", "204", "4873", "1667", "2377", "2184" ]
+, [ "row-zsxm_x2wp~9qjp", "00000000-0000-0000-67E8-5307D1332BEB", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "52", "44", "0", "0", "0", "0", "3", "0", "0", "0", "8", "1", "1", "0", "0" ]
+, [ "row-4jyr-u7u4_7wrr", "00000000-0000-0000-B0CE-1A866D6CB4A2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "84", "27", "0", "3", "0", "0", "1", "1", "0", "0", "8", "0", "1", "1", "1" ]
+, [ "row-k2hx.wk8e-dg9s", "00000000-0000-0000-EDEF-D545FD4B1ADE", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "276", "157", "4", "6", "5", "0", "5", "3", "0", "1", "37", "7", "3", "19", "15" ]
+, [ "row-rw92-r2nz~5ftu", "00000000-0000-0000-C681-DA12B5C06014", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "322", "239", "8", "24", "7", "0", "3", "1", "3", "4", "30", "22", "6", "32", "28" ]
+, [ "row-rw29_zeeh.92uf", "00000000-0000-0000-5A16-F8D8597E9025", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "501", "446", "7", "68", "25", "0", "7", "9", "6", "10", "27", "51", "16", "62", "55" ]
+, [ "row-dkcg~vvca-7ncy", "00000000-0000-0000-F8B8-1549DF047A37", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "14", "6", "0", "1", "0", "0", "0", "0", "0", "0", "2", "0", "0", "0", "0" ]
+, [ "row-qcbw.seva.f4p4", "00000000-0000-0000-8835-F3542D43DEB7", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "890", "846", "19", "165", "42", "1", "30", "48", "12", "16", "26", "110", "33", "112", "108" ]
+, [ "row-kk5g~6e7u_5tx6", "00000000-0000-0000-7A66-823C0A9DF174", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1001", "971", "23", "204", "68", "17", "28", "50", "16", "21", "25", "145", "36", "133", "127" ]
+, [ "row-7ckj.qwsr_xyqj", "00000000-0000-0000-EEE5-0502A714C726", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1055", "1027", "18", "168", "60", "43", "32", "68", "18", "22", "12", "189", "57", "123", "119" ]
+, [ "row-t23g-e978~wn3a", "00000000-0000-0000-1A1E-D6D29ABFCEA2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic American Indian or Alaska Native", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "877", "856", "8", "97", "20", "80", "37", "34", "14", "18", "19", "155", "63", "82", "77" ]
+, [ "row-pjk2_283s-4qsp", "00000000-0000-0000-AF23-F94F5EB05F7F", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "153", "146", "0", "3", "0", "0", "2", "1", "2", "3", "12", "2", "1", "0", "0" ]
+, [ "row-mxr2~pyef.mvem", "00000000-0000-0000-CB1B-2EF1D7A88EDE", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "144", "82", "4", "19", "1", "0", "3", "1", "1", "0", "23", "8", "2", "0", "0" ]
+, [ "row-acin_wdbf_6ijs", "00000000-0000-0000-2D3C-9CD01209B146", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "227", "163", "2", "46", "4", "0", "1", "0", "0", "1", "26", "11", "8", "16", "14" ]
+, [ "row-qwjg-7yyp~fgzg", "00000000-0000-0000-B366-D2B958A75426", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "456", "382", "5", "177", "8", "0", "8", "1", "4", "4", "29", "26", "26", "32", "30" ]
+, [ "row-tje6_9kbq.dpa5", "00000000-0000-0000-4229-2FEADAF16A8F", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1002", "934", "15", "481", "28", "1", "14", "10", "6", "7", "33", "62", "72", "111", "104" ]
+, [ "row-ree7.444r-36dd", "00000000-0000-0000-46AD-08B2D514A1E3", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "43", "33", "0", "11", "0", "0", "2", "1", "0", "0", "3", "1", "1", "0", "0" ]
+, [ "row-7xf3.zgfn_g6jj", "00000000-0000-0000-0288-353681A14D3F", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2029", "1944", "18", "870", "70", "5", "37", "20", "20", "33", "34", "219", "110", "254", "244" ]
+, [ "row-fnp4~gsaf_exnq", "00000000-0000-0000-C949-C143E130F9A5", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "3721", "3624", "44", "1233", "188", "43", "70", "49", "58", "66", "50", "523", "263", "482", "446" ]
+, [ "row-8gie-4ygb_akuz", "00000000-0000-0000-049B-1732761B7687", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "5510", "5391", "75", "1152", "238", "204", "135", "126", "76", "127", "59", "1044", "466", "663", "619" ]
+, [ "row-5i9r_kube~jkz8", "00000000-0000-0000-9514-D4D6D4CBE9A8", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Asian", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "10101", "9905", "77", "884", "325", "966", "292", "254", "102", "181", "133", "2393", "915", "1115", "1014" ]
+, [ "row-ytg6-6ks7.53cq", "00000000-0000-0000-8404-C0F1453A5612", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1412", "1293", "13", "13", "0", "0", "7", "2", "18", "2", "301", "26", "13", "2", "2" ]
+, [ "row-s736.9fhz-w798", "00000000-0000-0000-DB61-9C96332A461D", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1044", "479", "11", "46", "20", "0", "16", "18", "7", "13", "113", "31", "14", "29", "27" ]
+, [ "row-5cwn_4t49_mpmi", "00000000-0000-0000-3574-FAE88BF0C780", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2401", "1551", "31", "211", "77", "0", "45", "26", "33", "28", "285", "215", "50", "104", "98" ]
+, [ "row-uj8u.ciri-pnjz", "00000000-0000-0000-696E-CED3ADEBEDA4", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "3955", "3296", "59", "587", "158", "0", "87", "63", "49", "63", "356", "590", "134", "301", "274" ]
+, [ "row-ttfm.s627_a2fz", "00000000-0000-0000-971A-685689CF72D1", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "7763", "7132", "146", "1682", "364", "7", "147", "153", "104", "177", "416", "1407", "314", "775", "732" ]
+, [ "row-xv3d.betz-hxde", "00000000-0000-0000-5798-F5CFE784DD59", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "232", "145", "1", "32", "4", "0", "10", "6", "4", "0", "28", "4", "4", "2", "2" ]
+, [ "row-sg9x.dm8w~vjc9", "00000000-0000-0000-D785-EC9FAEFFF002", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "16957", "16234", "334", "4249", "886", "34", "322", "636", "251", "417", "417", "3296", "722", "2063", "1916" ]
+, [ "row-q8f7-8u3b_9dev", "00000000-0000-0000-4041-83E591115AAB", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "22897", "22460", "445", "5351", "1184", "295", "459", "856", "328", "656", "289", "4668", "1218", "3259", "3043" ]
+, [ "row-ds2j~pkem-fm9g", "00000000-0000-0000-A8BA-B3C6241D50E3", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "24234", "23908", "419", "3887", "1149", "1105", "460", "860", "324", "732", "206", "5266", "1599", "3724", "3457" ]
+, [ "row-3kt2-gayz_u746", "00000000-0000-0000-09D9-FDE32E9C7C3F", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic Black", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "27709", "27410", "360", "2247", "844", "2538", "527", "712", "281", "640", "370", "6706", "2166", "3801", "3436" ]
+, [ "row-z6cu_gzzf-q9c3", "00000000-0000-0000-DDA0-7D0476E33AFB", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2126", "1927", "11", "47", "0", "0", "21", "2", "25", "2", "284", "43", "16", "2", "2" ]
+, [ "row-3km2-ab78-rtzx", "00000000-0000-0000-C756-78918D156057", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2330", "990", "15", "149", "19", "0", "34", "23", "10", "6", "336", "72", "22", "12", "11" ]
+, [ "row-y6ac~wyhu.zhvf", "00000000-0000-0000-7462-E3E62B66CB99", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "6204", "3340", "61", "585", "83", "0", "92", "35", "29", "22", "942", "324", "59", "56", "47" ]
+, [ "row-tugp-65as.3tzh", "00000000-0000-0000-0552-004982BECF7A", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "10344", "7191", "124", "1775", "225", "1", "189", "123", "73", "83", "1251", "929", "178", "129", "112" ]
+, [ "row-v7cq.2s2z.3323", "00000000-0000-0000-19E7-32AC57BD144C", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "21925", "18733", "386", "6141", "676", "29", "418", "769", "236", "214", "1345", "2828", "597", "483", "435" ]
+, [ "row-e45t_3ih2_3h5c", "00000000-0000-0000-E09C-F6945184E592", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "548", "350", "6", "111", "4", "0", "22", "7", "8", "0", "42", "16", "9", "0", "0" ]
+, [ "row-cx7s~xy2u~msrm", "00000000-0000-0000-6BB9-8D820D0A6780", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "57584", "54108", "1010", "19153", "1913", "331", "1182", "4202", "810", "677", "1719", "8692", "1806", "1814", "1661" ]
+, [ "row-6sun-rhj9_rhcj", "00000000-0000-0000-C02B-F4AA7F5D29AB", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "103540", "100569", "1755", "31844", "3423", "2292", "2004", "8969", "1871", "1686", "1352", "17385", "4333", "4711", "4323" ]
+, [ "row-6yed.b94z~vqq8", "00000000-0000-0000-BD25-3B499C2D8E09", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "154694", "150846", "2095", "32150", "3716", "10049", "3083", "12945", "2823", "2575", "1684", "29315", "9032", "9161", "8341" ]
+, [ "row-iec5-ar7m-wa36", "00000000-0000-0000-8450-50A015A4B9D2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Non-Hispanic White", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "264759", "257929", "2470", "23165", "3775", "27255", "5306", "12226", "3461", "3769", "4191", "68187", "19387", "19199", "17165" ]
+, [ "row-sdrg~jmpb-hj4d", "00000000-0000-0000-68BB-9FEB3CFD7E5A", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "267", "245", "1", "8", "0", "0", "4", "0", "0", "1", "44", "2", "1", "1", "0" ]
+, [ "row-rzaw_qby3~qbqf", "00000000-0000-0000-73FC-115B81F2E6F2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "127", "43", "0", "6", "2", "0", "1", "0", "0", "0", "18", "2", "1", "2", "2" ]
+, [ "row-cgxz~nrp7_b95s", "00000000-0000-0000-7091-8A8B8FABBDF0", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "226", "141", "1", "20", "5", "0", "3", "4", "1", "2", "41", "10", "2", "14", "14" ]
+, [ "row-bitn_ijy6~2csg", "00000000-0000-0000-8179-BD11A90B28D5", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "325", "257", "5", "54", "8", "0", "4", "2", "1", "3", "48", "28", "6", "13", "12" ]
+, [ "row-4rcy.qbzg.4ziw", "00000000-0000-0000-D4EF-4520C313B2CC", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "531", "460", "9", "128", "24", "0", "11", "17", "2", "9", "41", "71", "23", "36", "36" ]
+, [ "row-tcgu_bs5q.2d3i", "00000000-0000-0000-B06F-4F02F6E42486", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "35", "21", "1", "5", "0", "0", "3", "0", "0", "0", "2", "1", "1", "0", "0" ]
+, [ "row-hym6.dbn8.qpbh", "00000000-0000-0000-8C72-B0B38FAA3223", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1008", "951", "10", "253", "47", "2", "24", "57", "8", "26", "43", "173", "41", "87", "82" ]
+, [ "row-gbty~r2vx~a9v6", "00000000-0000-0000-9163-69BCC623E5F9", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1363", "1334", "18", "352", "57", "22", "31", "91", "15", "23", "21", "268", "56", "159", "147" ]
+, [ "row-pujb~8gvs.fczv", "00000000-0000-0000-007A-ADD85F953DEF", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1265", "1239", "21", "212", "50", "61", "21", "71", "14", "31", "17", "289", "70", "154", "145" ]
+, [ "row-mkcz_vywp.4cnt", "00000000-0000-0000-9381-C039CEFD99B2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Female (F)", "Other", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1377", "1351", "10", "109", "47", "119", "30", "59", "13", "16", "33", "357", "101", "170", "154" ]
+, [ "row-nvxc~n9d2-we5v", "00000000-0000-0000-A669-03102DB9E2C5", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1456", "1316", "13", "28", "0", "0", "16", "1", "12", "5", "213", "20", "12", "5", "2" ]
+, [ "row-52t7.xjn7~zae9", "00000000-0000-0000-7942-DF7D100B0780", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2901", "843", "5", "119", "16", "0", "14", "8", "7", "6", "396", "30", "18", "58", "49" ]
+, [ "row-3fr8_mu7i~dmvq", "00000000-0000-0000-A43D-FDA68A923A0C", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "4545", "2064", "13", "191", "43", "0", "51", "15", "13", "22", "745", "163", "34", "306", "286" ]
+, [ "row-kewq_6uuj-zked", "00000000-0000-0000-758D-7E21112CF569", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "6076", "4163", "55", "427", "150", "0", "85", "18", "43", "46", "803", "499", "139", "941", "888" ]
+, [ "row-wy8i.mbpa_u8ki", "00000000-0000-0000-0FB5-BDA5305D5B7B", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "9481", "8131", "90", "1084", "409", "4", "164", "51", "87", "116", "759", "1337", "301", "2131", "2040" ]
+, [ "row-5aze~zkyx_rk3g", "00000000-0000-0000-3C3C-866C527AC842", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "351", "216", "5", "51", "3", "0", "11", "7", "4", "1", "34", "10", "6", "5", "4" ]
+, [ "row-b5gh.62vn.xhhs", "00000000-0000-0000-3274-22130E2D446B", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "15030", "13934", "157", "2545", "802", "30", "294", "197", "178", "270", "602", "2522", "482", "3457", "3299" ]
+, [ "row-x2eg_kqim_45tn", "00000000-0000-0000-C94E-BF78471542F8", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "16740", "16190", "153", "3368", "937", "159", "346", "388", "288", "355", "290", "3087", "668", "3838", "3667" ]
+, [ "row-mtvr_95mt.sdyn", "00000000-0000-0000-BF78-CDC1654364EA", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "15773", "15426", "168", "2794", "776", "485", "356", "527", "308", "297", "137", "3263", "806", "3066", "2893" ]
+, [ "row-8kns-xabq_kn5i", "00000000-0000-0000-57B7-1F99AC079873", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Hispanic", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "13313", "13022", "139", "1590", "440", "905", "376", "542", "214", "257", "114", "3275", "870", "1891", "1770" ]
+, [ "row-4v4p_bpsc-7nb2", "00000000-0000-0000-BA61-C662E4B2C03F", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "76", "61", "0", "1", "0", "0", "2", "0", "0", "0", "19", "1", "0", "1", "1" ]
+, [ "row-geqi-ygsn-iut7", "00000000-0000-0000-5368-C6268FEC1730", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "191", "53", "0", "3", "0", "0", "2", "2", "0", "0", "24", "3", "0", "7", "7" ]
+, [ "row-cpej~4te5.yhi3", "00000000-0000-0000-DC7A-6F989013FBF7", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "469", "234", "5", "7", "4", "0", "5", "0", "3", "0", "66", "16", "0", "34", "30" ]
+, [ "row-cw52-g79p_8qzf", "00000000-0000-0000-910F-0810C67264DA", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "564", "360", "4", "12", "23", "0", "15", "3", "3", "6", "65", "51", "2", "41", "37" ]
+, [ "row-tcbg~2e7h.xgr8", "00000000-0000-0000-7275-16672DACB558", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "779", "640", "15", "57", "58", "0", "17", "4", "4", "5", "61", "104", "20", "96", "90" ]
+, [ "row-yzjy_th9a~cjju", "00000000-0000-0000-66D3-37C1149969D7", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "24", "10", "0", "2", "0", "0", "1", "2", "0", "0", "1", "1", "1", "1", "1" ]
+, [ "row-t39a-mifv_m5qc", "00000000-0000-0000-649D-432AB6FBC9BA", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1210", "1098", "18", "209", "79", "1", "22", "37", "21", "6", "63", "221", "24", "154", "146" ]
+, [ "row-zdnc-yxwc-fibc", "00000000-0000-0000-17DE-6CB733B0D6B7", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1237", "1179", "19", "271", "90", "7", "24", "59", "16", "16", "21", "269", "39", "150", "141" ]
+, [ "row-g997.ykft~9thi", "00000000-0000-0000-2DC6-C17D90AD8076", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "967", "943", "10", "173", "50", "22", "22", "59", "21", "13", "17", "225", "52", "108", "102" ]
+, [ "row-8w55~u6zz~sffr", "00000000-0000-0000-4106-F09870B361AB", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic American Indian or Alaska Native", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "525", "509", "3", "61", "22", "21", "17", "18", "12", "14", "1", "127", "29", "71", "66" ]
+, [ "row-bnw8.75ta~9xad", "00000000-0000-0000-0999-E3F40D7B0EEA", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "185", "172", "1", "3", "0", "0", "2", "1", "1", "1", "12", "3", "0", "0", "0" ]
+, [ "row-ah6z_w3et.g9u5", "00000000-0000-0000-C72B-7F92867CD566", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "275", "110", "4", "21", "2", "0", "2", "0", "1", "0", "43", "7", "3", "5", "5" ]
+, [ "row-s2i7~gkvt_qmwn", "00000000-0000-0000-77CC-C13450430159", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "547", "274", "2", "42", "3", "0", "9", "3", "1", "2", "65", "43", "9", "31", "30" ]
+, [ "row-w7dk.uutz~mzt6", "00000000-0000-0000-7286-03BBB9E8E383", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "862", "640", "8", "133", "25", "0", "13", "5", "6", "8", "87", "103", "47", "70", "68" ]
+, [ "row-pxjc_374v~n9rg", "00000000-0000-0000-0747-DC0D6C2F9C6F", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1660", "1477", "7", "324", "74", "1", "26", "14", "6", "18", "92", "349", "81", "240", "230" ]
+, [ "row-te84.avxb_fg59", "00000000-0000-0000-DAB3-07CF34957451", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "50", "38", "0", "7", "0", "0", "3", "1", "1", "1", "3", "2", "0", "1", "0" ]
+, [ "row-ycsz~aivi~7ktw", "00000000-0000-0000-C634-ED36B5502160", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "3393", "3213", "39", "896", "163", "7", "62", "35", "34", "46", "61", "669", "161", "638", "609" ]
+, [ "row-f5ub_x2gk-5nwg", "00000000-0000-0000-A087-F62B750F55ED", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "5276", "5109", "54", "1330", "265", "28", "147", "117", "71", "101", "51", "1036", "252", "1027", "983" ]
+, [ "row-ng4m_nrfg.zhfp", "00000000-0000-0000-B063-60186C180903", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "6457", "6280", "72", "1338", "311", "143", "212", "209", "101", "150", "54", "1314", "426", "986", "923" ]
+, [ "row-n9xv.7z27_a3w5", "00000000-0000-0000-74A6-B3CF45604095", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Asian", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "6742", "6576", "65", "821", "223", "362", "281", "275", "100", "152", "81", "1656", "485", "769", "724" ]
+, [ "row-88fx-mh3z.5wav", "00000000-0000-0000-C0C9-CA33FE644470", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1775", "1572", "10", "12", "0", "0", "23", "4", "14", "7", "338", "25", "6", "1", "1" ]
+, [ "row-pv57.jgp8.8a3h", "00000000-0000-0000-3C23-2A5CF302AD9A", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "3383", "736", "8", "53", "28", "0", "7", "18", "5", "8", "314", "64", "9", "33", "30" ]
+, [ "row-mp7k_xutd.tzv9", "00000000-0000-0000-ADFA-D4BCF5779608", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "5672", "2133", "20", "137", "102", "0", "39", "39", "24", "31", "641", "310", "44", "182", "171" ]
+, [ "row-kfpa_z8zn~a2pr", "00000000-0000-0000-E849-770926A46D27", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "6670", "4295", "73", "384", "259", "0", "94", "54", "54", "80", "684", "1024", "157", "451", "407" ]
+, [ "row-zpja.ym4h-we7c", "00000000-0000-0000-DDF5-128E6B319985", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "11766", "9720", "165", "1274", "582", "5", "196", "140", "97", "233", "838", "2630", "415", "1308", "1230" ]
+, [ "row-6r95-4tgm~fa3r", "00000000-0000-0000-71BE-189D4AD668D1", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "406", "222", "1", "35", "2", "0", "10", "25", "4", "1", "44", "15", "3", "6", "6" ]
+, [ "row-2f4i~pwwq-2bbk", "00000000-0000-0000-D58E-F763D941FF5D", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "24918", "22846", "377", "4527", "1261", "37", "434", "614", "280", "568", "1052", "5920", "1071", "3065", "2859" ]
+, [ "row-zkd4_gifs~cvvs", "00000000-0000-0000-BEE4-CA53F99D411B", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "29724", "28689", "504", "6158", "1409", "205", "603", "1039", "390", "760", "579", "6760", "1451", "4721", "4439" ]
+, [ "row-u7fw~w6jh-2jq9", "00000000-0000-0000-5FB2-0C1E681FC093", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "22906", "22513", "363", "4082", "978", "597", "459", "881", "274", "639", "234", "5089", "1253", "4156", "3906" ]
+, [ "row-4g5v~dkwm~xj7n", "00000000-0000-0000-D50F-92AD5D0ACD39", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic Black", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "14047", "13800", "216", "1823", "467", "703", "342", "494", "142", "372", "150", "3369", "857", "2215", "2067" ]
+, [ "row-eh7w_hap8-hnvw", "00000000-0000-0000-2388-4AADC63470DD", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2704", "2386", "21", "58", "0", "0", "34", "1", "31", "7", "399", "43", "19", "5", "5" ]
+, [ "row-j7va-f83y.xuxx", "00000000-0000-0000-33C0-800A4267C49C", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "5917", "1694", "10", "196", "41", "0", "40", "14", "26", "8", "751", "112", "15", "23", "17" ]
+, [ "row-vbuy~d4bm~7t2d", "00000000-0000-0000-1A55-6316D6C08F2A", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "13845", "5419", "48", "500", "162", "0", "114", "45", "34", "41", "2338", "537", "84", "108", "98" ]
+, [ "row-9ds4-jcpb_exsk", "00000000-0000-0000-CEE8-952B641D6208", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "19212", "11009", "138", "1513", "407", "2", "210", "116", "92", "100", "2759", "2010", "272", "241", "214" ]
+, [ "row-n3bf-f3av~zcss", "00000000-0000-0000-4246-5B06A1D7612C", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "35987", "28094", "416", "5929", "1281", "6", "518", "672", "288", "321", "2711", "7073", "851", "931", "874" ]
+, [ "row-wrxb.4uwx_6mdg", "00000000-0000-0000-2F16-D06B7338A4DD", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "803", "416", "5", "110", "5", "0", "14", "11", "6", "0", "66", "19", "3", "2", "1" ]
+, [ "row-3vjh_ujj3_fyzx", "00000000-0000-0000-8B35-9D3FA996F3CB", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "91629", "82842", "1163", "23070", "3377", "239", "1455", "4278", "1062", "1016", "3212", "21055", "2623", "3351", "3086" ]
+, [ "row-kj4i.edqj.afux", "00000000-0000-0000-8575-DDB4C91B1B19", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "142739", "136400", "1806", "39883", "5480", "1498", "2477", "9557", "2502", "2100", "2247", "32521", "4810", "7420", "6896" ]
+, [ "row-mdyh~us27.pdkt", "00000000-0000-0000-05F6-525F64BF03DD", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "170177", "164191", "2208", "37923", "4941", "6107", "3485", "11709", "3455", "3035", "1661", "39411", "7952", "10788", "9986" ]
+, [ "row-nru9~yuky_42cg", "00000000-0000-0000-AC7A-FFFBA0F9206D", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Non-Hispanic White", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "168428", "162834", "1735", "22059", "3277", "10113", "4051", "8171", "2644", "3417", "2055", "48170", "9394", "11972", "10967" ]
+, [ "row-qm2a.ktrn~s23v", "00000000-0000-0000-4B91-C5F8D7F116A2", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "0-4 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "318", "287", "3", "6", "0", "0", "5", "0", "4", "1", "51", "2", "1", "0", "0" ]
+, [ "row-cxqk.9wuk_5ntv", "00000000-0000-0000-5AE7-67B180D2DAC0", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "15-24 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "287", "77", "2", "13", "2", "0", "0", "4", "0", "0", "32", "9", "1", "3", "2" ]
+, [ "row-huwk_6uzn.znmx", "00000000-0000-0000-FEAD-A682701459C0", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "25-34 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "474", "215", "0", "16", "4", "0", "2", "3", "0", "1", "96", "27", "4", "13", "12" ]
+, [ "row-27ip~ehs5_tmf9", "00000000-0000-0000-A3B6-C076B2B64DE5", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "35-44 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "523", "340", "6", "39", "19", "0", "6", "6", "2", "2", "73", "61", "12", "30", "27" ]
+, [ "row-wwmq_nwm2_d7ge", "00000000-0000-0000-CA09-FA45096A67D5", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "45-54 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "844", "682", "4", "89", "43", "0", "14", "10", "9", "8", "99", "168", "36", "75", "70" ]
+, [ "row-yfv8-irnp_pbde", "00000000-0000-0000-0F5C-8CF9D099C283", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "5-14 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "58", "37", "2", "10", "0", "0", "3", "1", "0", "0", "4", "1", "2", "0", "0" ]
+, [ "row-upqd-u7bf~cc3z", "00000000-0000-0000-9614-03BE737E7645", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-28T00:00:00", "Male (M)", "Other", "55-64 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1784", "1618", "19", "291", "79", "2", "33", "53", "15", "35", "136", "416", "65", "204", "190" ]
+, [ "row-a3iq_qymh-wdnu", "00000000-0000-0000-A0FF-3D8BCAE77625", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-29T00:00:00", "Male (M)", "Other", "65-74 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "2050", "1957", "24", "357", "96", "9", "54", "104", "33", "18", "64", "542", "58", "322", "305" ]
+, [ "row-5zxm.g42c~h8jy", "00000000-0000-0000-05D5-5655BA0A32F1", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-30T00:00:00", "Male (M)", "Other", "75-84 years", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "1581", "1543", "10", "253", "57", "46", "30", "90", "30", "29", "32", "388", "72", "283", "265" ]
+, [ "row-9gi2.miqt~jvsa", "00000000-0000-0000-BDB2-95235A5F0358", 0, 1596037267, null, 1596037267, null, "{ }", "2020-07-31T00:00:00", "Male (M)", "Other", "85 years and over", "2020", "30", "2020-01-01T00:00:00", "2020-07-28T00:00:00", "955", "932", "12", "101", "17", "52", "31", "31", "9", "14", "10", "277", "52", "167", "154" ]
+ ]
+}
